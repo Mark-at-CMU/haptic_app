@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D09DFC02629F5C200AA269B /* CHaptic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D09DFBF2629F5C200AA269B /* CHaptic.swift */; };
 		4DA0376F26220F5A004A844A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA0376E26220F5A004A844A /* AppDelegate.swift */; };
 		4DA0377126220F5A004A844A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA0377026220F5A004A844A /* SceneDelegate.swift */; };
 		4DA0377326220F5A004A844A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA0377226220F5A004A844A /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4D09DFBF2629F5C200AA269B /* CHaptic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CHaptic.swift; sourceTree = "<group>"; };
 		4DA0376B26220F5A004A844A /* haptic_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = haptic_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DA0376E26220F5A004A844A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DA0377026220F5A004A844A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4D09DFBE2629F58D00AA269B /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				4D09DFBF2629F5C200AA269B /* CHaptic.swift */,
+			);
+			path = Class;
+			sourceTree = "<group>";
+		};
 		4DA0376226220F59004A844A = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		4DA0376D26220F5A004A844A /* haptic_app */ = {
 			isa = PBXGroup;
 			children = (
+				4D09DFBE2629F58D00AA269B /* Class */,
 				4DA0376E26220F5A004A844A /* AppDelegate.swift */,
 				4DA0377026220F5A004A844A /* SceneDelegate.swift */,
 				4DA0377226220F5A004A844A /* ViewController.swift */,
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D09DFC02629F5C200AA269B /* CHaptic.swift in Sources */,
 				4DA0377326220F5A004A844A /* ViewController.swift in Sources */,
 				4DA0376F26220F5A004A844A /* AppDelegate.swift in Sources */,
 				4DA0377126220F5A004A844A /* SceneDelegate.swift in Sources */,
@@ -287,13 +299,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 822DDNH87P;
 				INFOPLIST_FILE = haptic_app/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "mazeyuan.haptic-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "mark.haptic-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -306,13 +319,14 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 822DDNH87P;
 				INFOPLIST_FILE = haptic_app/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "mazeyuan.haptic-app";
+				PRODUCT_BUNDLE_IDENTIFIER = "mark.haptic-app";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

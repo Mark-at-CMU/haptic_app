@@ -55,13 +55,12 @@
                                     <action selector="rigifFeedback:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YuU-GZ-waY"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dOd-Uq-QXN">
-                                <rect key="frame" x="139" y="109" width="30" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="h2m-Km-n2z">
+                                <rect key="frame" x="109" y="113" width="96" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Soft"/>
+                                <state key="normal" title="Haptic Engine"/>
                                 <connections>
-                                    <action selector="pressMe:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9H9-ch-qgE"/>
-                                    <action selector="softFeedback:" destination="BYZ-38-t0r" eventType="touchUpInside" id="k0Q-8T-dtL"/>
+                                    <action selector="testEngine:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CMz-BS-5Oe"/>
                                 </connections>
                             </button>
                         </subviews>

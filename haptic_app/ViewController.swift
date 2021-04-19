@@ -6,10 +6,17 @@
 //
 
 import UIKit
+import CoreHaptics
 
 class ViewController: UIViewController {
 
     @IBOutlet weak var testingButton: UILabel!
+    //private var engine: CHHapticEngine?
+    var hapticManager = HapticManager()
+    var hapticsAvailable: Bool {
+        CHHapticEngine.capabilitiesForHardware().supportsHaptics
+    }
+
     var hapticSoft = UIImpactFeedbackGenerator(style: .soft)
     var hapticLight = UIImpactFeedbackGenerator(style: .light)
     var hapticMedium = UIImpactFeedbackGenerator(style: .medium)
@@ -19,13 +26,18 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        //hapticManager = HapticManager()
     }
     
+    /*
     @IBAction func softFeedback(_ sender: Any) {
         self.hapticSoft.impactOccurred()
     }
+    */
+    
     
     @IBAction func lightFeedback(_ sender: Any) {
+        //print("light testing")
         self.hapticLight.impactOccurred()
     }
     
@@ -40,6 +52,14 @@ class ViewController: UIViewController {
     
     @IBAction func heavyFeedback(_ sender: Any) {
         self.hapticHeavy.impactOccurred()
+    }
+    
+    
+    @IBAction func testEngine(_ sender: Any) {
+        print(hapticsAvailable)
+        
+        self.hapticManager?.playSlice()
+        
     }
     
 }
